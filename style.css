@@ -4,6 +4,7 @@
 }
 
 body {
+	text-color: black;
 	align-items: center;
 	text-align: center;
 	background: url(https://i.pinimg.com/736x/81/b6/b1/81b6b1ff3bdfb45dba6415b2ff3f05ba.jpg);
@@ -45,6 +46,7 @@ body {
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(50px);
 }
+
 
 
 
