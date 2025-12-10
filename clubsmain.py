@@ -43,7 +43,7 @@ clubs_info = {
     }
 }
 
-def any_clubs(e):
+def reveal(e):
     document.getElementById("outputs").innerText = ""
     club_names = document.getElementById("clubs").value
     display(f"Description: {clubs_info[club_names]['Description']}", target='outputs')
@@ -51,4 +51,5 @@ def any_clubs(e):
     display(f"Location: {clubs_info[club_names]['Location']}", target='outputs')
     display(f"Moderator: {clubs_info[club_names]['Moderator']}", target='outputs')
     display(f"No. of Members: {clubs_info[club_names]['No. Of Members']}", target='outputs')
+
 
