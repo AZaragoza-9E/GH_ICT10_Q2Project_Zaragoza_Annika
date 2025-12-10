@@ -45,9 +45,10 @@ clubs_info = {
 
 def any_clubs(e):
     document.getElementById("outputs").innerText = ""
-    club_names = document.getElementById("chosenclubs").value
+    club_names = document.getElementById("clubs").value
     display(f"Description: {clubs_info[club_names]['Description']}", target='outputs')
     display(f"Meeting Time: {clubs_info[club_names]['Meeting_Time']}", target='outputs')
     display(f"Location: {clubs_info[club_names]['Location']}", target='outputs')
     display(f"Moderator: {clubs_info[club_names]['Moderator']}", target='outputs')
     display(f"No. of Members: {clubs_info[club_names]['No. Of Members']}", target='outputs')
+
