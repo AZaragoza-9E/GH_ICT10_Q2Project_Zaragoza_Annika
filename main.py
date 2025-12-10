@@ -7,12 +7,12 @@ def reveal(e):
     lastn = str(document.getElementById('lasttime').value)
 
         
-    eng = document.getElementById('eng').value)
-    fil = document.getElementById('fil').value)
-    math = document.getElementById('math').value)
-    sci = document.getElementById('sci').value)
-    ss = document.getElementById('ss').value)
-    ve = document.getElementById('ve').value)
+    eng = document.getElementById('eng').value
+    fil = document.getElementById('fil').value
+    math = document.getElementById('math').value
+    sci = document.getElementById('sci').value
+    ss = document.getElementById('ss').value
+    ve = document.getElementById('ve').value
 
     
     subjects = [eng, fil, math, sci, ss, ve]
@@ -35,4 +35,5 @@ def reveal(e):
     """
     , target='gradesset2')
     display(f'Your General Weighted Average is {round(grade, 2)}.', target='grade')
+
 
